@@ -1,5 +1,5 @@
 
-| [English](README_EN.md) | 简体中文 |
+| [English](README.md) | 简体中文 |
 
 # [112. 路径总和](https://leetcode-cn.com/problems/path-sum/)
 

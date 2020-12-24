@@ -1,5 +1,5 @@
 
-| [English](README_EN.md) | 简体中文 |
+| [English](README.md) | 简体中文 |
 
 # [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
 

@@ -1,5 +1,5 @@
 
-| English | [简体中文](README.md) |
+| English | [简体中文](README_CN.md) |
 
 # [346. Moving Average from Data Stream](https://leetcode-cn.com/problems/moving-average-from-data-stream/)
 

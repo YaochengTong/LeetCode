@@ -1,5 +1,5 @@
 
-| [English](README_EN.md) | 简体中文 |
+| [English](README.md) | 简体中文 |
 
 # [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
 

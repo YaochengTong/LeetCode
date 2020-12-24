@@ -1,5 +1,5 @@
 
-| English | [简体中文](README.md) |
+| English | [简体中文](README_CN.md) |
 
 # [19. Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 

@@ -1,5 +1,5 @@
 
-| English | [简体中文](README.md) |
+| English | [简体中文](README_CN.md) |
 
 # [622. Design Circular Queue](https://leetcode-cn.com/problems/design-circular-queue/)
 

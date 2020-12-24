@@ -1,5 +1,5 @@
 
-| English | [简体中文](README.md) |
+| English | [简体中文](README_CN.md) |
 
 # [232. Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
 

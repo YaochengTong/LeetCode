@@ -1,5 +1,5 @@
 
-| English | [简体中文](README.md) |
+| English | [简体中文](README_CN.md) |
 
 # [234. Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/)
 

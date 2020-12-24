@@ -1,5 +1,5 @@
 
-| [English](README_EN.md) | 简体中文 |
+| [English](README.md) | 简体中文 |
 
 # [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
 

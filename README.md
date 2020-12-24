@@ -1,5 +1,5 @@
 
-| English | [简体中文](README.md) |
+| English | [简体中文](README_CN.md) |
 
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
@@ -13,7 +13,7 @@
 
 <p align="center">
     <br>
-    <b>Last updated: 2020-12-24 11:05:31</b>
+    <b>Last updated: 2020-12-24 11:08:26</b>
     <br>
 </p>
 

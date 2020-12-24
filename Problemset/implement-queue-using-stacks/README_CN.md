@@ -1,5 +1,5 @@
 
-| [English](README_EN.md) | 简体中文 |
+| [English](README.md) | 简体中文 |
 
 # [232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
 

@@ -1,5 +1,5 @@
 
-| [English](README_EN.md) | 简体中文 |
+| [English](README.md) | 简体中文 |
 
 # [203. 移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)
 

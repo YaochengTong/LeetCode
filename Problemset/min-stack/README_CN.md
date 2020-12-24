@@ -1,5 +1,5 @@
 
-| [English](README_EN.md) | 简体中文 |
+| [English](README.md) | 简体中文 |
 
 # [155. 最小栈](https://leetcode-cn.com/problems/min-stack/)
 

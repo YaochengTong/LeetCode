@@ -1,5 +1,5 @@
 
-| English | [简体中文](README.md) |
+| English | [简体中文](README_CN.md) |
 
 # [707. Design Linked List](https://leetcode-cn.com/problems/design-linked-list/)
 

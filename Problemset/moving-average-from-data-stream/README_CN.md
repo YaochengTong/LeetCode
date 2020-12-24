@@ -1,5 +1,5 @@
 
-| [English](README_EN.md) | 简体中文 |
+| [English](README.md) | 简体中文 |
 
 # [346. 数据流中的移动平均值](https://leetcode-cn.com/problems/moving-average-from-data-stream/)
 

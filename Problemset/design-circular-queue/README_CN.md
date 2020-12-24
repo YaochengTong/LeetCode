@@ -1,5 +1,5 @@
 
-| [English](README_EN.md) | 简体中文 |
+| [English](README.md) | 简体中文 |
 
 # [622. 设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/)
 

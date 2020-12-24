@@ -1,5 +1,5 @@
 
-| [English](README_EN.md) | 简体中文 |
+| [English](README.md) | 简体中文 |
 
 # [724. 寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index/)
 

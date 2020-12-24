@@ -1,5 +1,5 @@
 
-| [English](README_EN.md) | 简体中文 |
+| [English](README.md) | 简体中文 |
 
 # [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/)
 

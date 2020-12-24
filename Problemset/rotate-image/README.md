@@ -1,5 +1,5 @@
 
-| English | [简体中文](README.md) |
+| English | [简体中文](README_CN.md) |
 
 # [48. Rotate Image](https://leetcode-cn.com/problems/rotate-image/)
 

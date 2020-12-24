@@ -1,5 +1,5 @@
 
-| English | [简体中文](README.md) |
+| English | [简体中文](README_CN.md) |
 
 # [75. Sort Colors](https://leetcode-cn.com/problems/sort-colors/)
 

@@ -1,5 +1,5 @@
 
-| [English](README_EN.md) | 简体中文 |
+| [English](README.md) | 简体中文 |
 
 # [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
 

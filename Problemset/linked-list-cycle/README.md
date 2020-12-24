@@ -1,5 +1,5 @@
 
-| English | [简体中文](README.md) |
+| English | [简体中文](README_CN.md) |
 
 # [141. Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)
 

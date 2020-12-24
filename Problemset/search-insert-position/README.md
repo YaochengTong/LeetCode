@@ -1,5 +1,5 @@
 
-| English | [简体中文](README.md) |
+| English | [简体中文](README_CN.md) |
 
 # [35. Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/)
 

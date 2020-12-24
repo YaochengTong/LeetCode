@@ -1,5 +1,5 @@
 
-| [English](README_EN.md) | 简体中文 |
+| [English](README.md) | 简体中文 |
 
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
@@ -13,7 +13,7 @@
 
 <p align="center">
     <br>
-    <b>最近一次更新: 2020-12-24 11:05:31</b>
+    <b>最近一次更新: 2020-12-24 11:08:26</b>
     <br>
 </p>
 
