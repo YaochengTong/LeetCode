@@ -1,34 +1,35 @@
 
-| [English](README_EN.md) | 简体中文 |
+| English | [简体中文](README.md) |
 
-# [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
+# [234. Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/)
 
-## 题目描述
+## Description
 
-<p>请判断一个链表是否为回文链表。</p>
+<p>Given a singly linked list, determine if it is a palindrome.</p>
 
-<p><strong>示例 1:</strong></p>
+<p><strong>Example 1:</strong></p>
 
-<pre><strong>输入:</strong> 1-&gt;2
-<strong>输出:</strong> false</pre>
+<pre>
+<strong>Input:</strong> 1-&gt;2
+<strong>Output:</strong> false</pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong>Example 2:</strong></p>
 
-<pre><strong>输入:</strong> 1-&gt;2-&gt;2-&gt;1
-<strong>输出:</strong> true
-</pre>
+<pre>
+<strong>Input:</strong> 1-&gt;2-&gt;2-&gt;1
+<strong>Output:</strong> true</pre>
 
-<p><strong>进阶：</strong><br>
-你能否用&nbsp;O(n) 时间复杂度和 O(1) 空间复杂度解决此题？</p>
+<p><b>Follow up:</b><br />
+Could you do it in O(n) time and O(1) space?</p>
 
 
-## 相关话题
+## Related Topics
 
-- [链表](https://leetcode-cn.com/tag/linked-list)
-- [双指针](https://leetcode-cn.com/tag/two-pointers)
+- [Linked List](https://leetcode-cn.com/tag/linked-list)
+- [Two Pointers](https://leetcode-cn.com/tag/two-pointers)
 
-## 相似题目
+## Similar Questions
 
-- [回文数](../palindrome-number/README.md)
-- [验证回文串](../valid-palindrome/README.md)
-- [反转链表](../reverse-linked-list/README.md)
+- [Palindrome Number](../palindrome-number/README_EN.md)
+- [Valid Palindrome](../valid-palindrome/README_EN.md)
+- [Reverse Linked List](../reverse-linked-list/README_EN.md)

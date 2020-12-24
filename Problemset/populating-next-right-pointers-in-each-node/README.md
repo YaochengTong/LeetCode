@@ -1,11 +1,11 @@
 
-| [English](README_EN.md) | 简体中文 |
+| English | [简体中文](README.md) |
 
-# [116. 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)
+# [116. Populating Next Right Pointers in Each Node](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)
 
-## 题目描述
+## Description
 
-<p>给定一个 <strong>完美二叉树 </strong>，其所有叶子节点都在同一层，每个父节点都有两个子节点。二叉树定义如下：</p>
+<p>You are given a <strong>perfect binary tree</strong>&nbsp;where&nbsp;all leaves are on the same level, and every parent has two children. The binary tree has the following definition:</p>
 
 <pre>
 struct Node {
@@ -13,50 +13,48 @@ struct Node {
   Node *left;
   Node *right;
   Node *next;
-}</pre>
-
-<p>填充它的每个 next 指针，让这个指针指向其下一个右侧节点。如果找不到下一个右侧节点，则将 next 指针设置为 <code>NULL</code>。</p>
-
-<p>初始状态下，所有 next 指针都被设置为 <code>NULL</code>。</p>
-
-<p> </p>
-
-<p><strong>进阶：</strong></p>
-
-<ul>
-	<li>你只能使用常量级额外空间。</li>
-	<li>使用递归解题也符合要求，本题中递归程序占用的栈空间不算做额外的空间复杂度。</li>
-</ul>
-
-<p> </p>
-
-<p><strong>示例：</strong></p>
-
-<p><img alt="" src="https://assets.leetcode.com/uploads/2019/02/14/116_sample.png" style="height: 205px; width: 600px;" /></p>
-
-<pre>
-<b>输入：</b>root = [1,2,3,4,5,6,7]
-<b>输出：</b>[1,#,2,3,#,4,5,6,7,#]
-<b>解释：</b>给定二叉树如图 A 所示，你的函数应该填充它的每个 next 指针，以指向其下一个右侧节点，如图 B 所示。序列化的输出按层序遍历排列，同一层节点由 next 指针连接，'#' 标志着每一层的结束。
+}
 </pre>
 
-<p> </p>
+<p>Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to <code>NULL</code>.</p>
 
-<p><strong>提示：</strong></p>
+<p>Initially, all next pointers are set to <code>NULL</code>.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Follow up:</strong></p>
 
 <ul>
-	<li>树中节点的数量少于 <code>4096</code></li>
-	<li><code>-1000 <= node.val <= 1000</code></li>
+	<li>You may only use constant extra space.</li>
+	<li>Recursive approach is fine, you may assume implicit stack space does not count as extra space for this problem.</li>
 </ul>
 
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-## 相关话题
+<p><img alt="" src="https://assets.leetcode.com/uploads/2019/02/14/116_sample.png" style="width: 640px; height: 218px;" /></p>
 
-- [树](https://leetcode-cn.com/tag/tree)
-- [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)
-- [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)
+<pre>
+<strong>Input:</strong> root = [1,2,3,4,5,6,7]
+<strong>Output:</strong> [1,#,2,3,#,4,5,6,7,#]
+<strong>Explanation: </strong>Given the above perfect binary tree (Figure A), your function should populate each next pointer to point to its next right node, just like in Figure B. The serialized output is in level order as connected by the next pointers, with &#39;#&#39; signifying the end of each level.
+</pre>
 
-## 相似题目
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-- [填充每个节点的下一个右侧节点指针 II](../populating-next-right-pointers-in-each-node-ii/README.md)
-- [二叉树的右视图](../binary-tree-right-side-view/README.md)
+<ul>
+	<li>The number of nodes in the given tree is less than <code>4096</code>.</li>
+	<li><code>-1000 &lt;= node.val &lt;= 1000</code></li>
+</ul>
+
+## Related Topics
+
+- [Tree](https://leetcode-cn.com/tag/tree)
+- [Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)
+- [Breadth-first Search](https://leetcode-cn.com/tag/breadth-first-search)
+
+## Similar Questions
+
+- [Populating Next Right Pointers in Each Node II](../populating-next-right-pointers-in-each-node-ii/README_EN.md)
+- [Binary Tree Right Side View](../binary-tree-right-side-view/README_EN.md)

@@ -14,6 +14,3 @@ class Solution:
             if target-nums[i] in hash:
                 if hash[target-nums[i]] != i:
                     return [i, hash[target-nums[i]]]    
-hash_map[key],i]
-            else:
-                hash_map[nums[i]] = i

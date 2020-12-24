@@ -1,17 +1,16 @@
 
-| [English](README_EN.md) | 简体中文 |
+| English | [简体中文](README.md) |
 
-# [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
+# [101. Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree/)
 
-## 题目描述
+## Description
 
-<p>给定一个二叉树，检查它是否是镜像对称的。</p>
+<p>Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).</p>
 
-<p>&nbsp;</p>
+<p>For example, this binary tree <code>[1,2,2,3,4,4,3]</code> is symmetric:</p>
 
-<p>例如，二叉树&nbsp;<code>[1,2,2,3,4,4,3]</code> 是对称的。</p>
-
-<pre>    1
+<pre>
+    1
    / \
   2   2
  / \ / \
@@ -20,9 +19,10 @@
 
 <p>&nbsp;</p>
 
-<p>但是下面这个&nbsp;<code>[1,2,2,null,3,null,3]</code> 则不是镜像对称的:</p>
+<p>But the following <code>[1,2,2,null,3,null,3]</code> is not:</p>
 
-<pre>    1
+<pre>
+    1
    / \
   2   2
    \   \
@@ -31,17 +31,15 @@
 
 <p>&nbsp;</p>
 
-<p><strong>进阶：</strong></p>
-
-<p>你可以运用递归和迭代两种方法解决这个问题吗？</p>
+<p><b>Follow up:</b> Solve it both recursively and iteratively.</p>
 
 
-## 相关话题
+## Related Topics
 
-- [树](https://leetcode-cn.com/tag/tree)
-- [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)
-- [广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)
+- [Tree](https://leetcode-cn.com/tag/tree)
+- [Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)
+- [Breadth-first Search](https://leetcode-cn.com/tag/breadth-first-search)
 
-## 相似题目
+## Similar Questions
 
 

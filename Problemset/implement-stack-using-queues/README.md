@@ -1,33 +1,64 @@
 
-| [English](README_EN.md) | 简体中文 |
+| English | [简体中文](README.md) |
 
-# [225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)
+# [225. Implement Stack using Queues](https://leetcode-cn.com/problems/implement-stack-using-queues/)
 
-## 题目描述
+## Description
 
-<p>使用队列实现栈的下列操作：</p>
+<p>Implement a last in first out (LIFO) stack using only two queues. The implemented stack should support all the functions of a normal queue (<code>push</code>, <code>top</code>, <code>pop</code>, and <code>empty</code>).</p>
 
-<ul>
-	<li>push(x) -- 元素 x 入栈</li>
-	<li>pop() -- 移除栈顶元素</li>
-	<li>top() -- 获取栈顶元素</li>
-	<li>empty() -- 返回栈是否为空</li>
-</ul>
-
-<p><strong>注意:</strong></p>
+<p>Implement the <code>MyStack</code> class:</p>
 
 <ul>
-	<li>你只能使用队列的基本操作-- 也就是&nbsp;<code>push to back</code>, <code>peek/pop from front</code>, <code>size</code>, 和&nbsp;<code>is empty</code>&nbsp;这些操作是合法的。</li>
-	<li>你所使用的语言也许不支持队列。&nbsp;你可以使用 list 或者 deque（双端队列）来模拟一个队列&nbsp;, 只要是标准的队列操作即可。</li>
-	<li>你可以假设所有操作都是有效的（例如, 对一个空的栈不会调用 pop 或者 top 操作）。</li>
+	<li><code>void push(int x)</code> Pushes element x to the top of the stack.</li>
+	<li><code>int pop()</code> Removes the element on the top of the stack and returns it.</li>
+	<li><code>int top()</code> Returns the element on the top of the stack.</li>
+	<li><code>boolean empty()</code> Returns <code>true</code> if the stack is empty, <code>false</code> otherwise.</li>
 </ul>
 
+<p><b>Notes:</b></p>
 
-## 相关话题
+<ul>
+	<li>You must use <strong>only</strong> standard operations of a queue, which means only <code>push to back</code>, <code>peek/pop from front</code>, <code>size</code>, and <code>is empty</code> operations are valid.</li>
+	<li>Depending on your language, the queue may not be supported natively. You may simulate a queue using a list or deque (double-ended queue), as long as you use only a queue&#39;s standard operations.</li>
+</ul>
 
-- [栈](https://leetcode-cn.com/tag/stack)
-- [设计](https://leetcode-cn.com/tag/design)
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-## 相似题目
+<pre>
+<strong>Input</strong>
+[&quot;MyStack&quot;, &quot;push&quot;, &quot;push&quot;, &quot;top&quot;, &quot;pop&quot;, &quot;empty&quot;]
+[[], [1], [2], [], [], []]
+<strong>Output</strong>
+[null, null, null, 2, 2, false]
 
-- [用栈实现队列](../implement-queue-using-stacks/README.md)
+<strong>Explanation</strong>
+MyStack myStack = new MyStack();
+myStack.push(1);
+myStack.push(2);
+myStack.top(); // return 2
+myStack.pop(); // return 2
+myStack.empty(); // return False
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= x &lt;= 9</code></li>
+	<li>At most <code>100</code>&nbsp;calls will be made to <code>push</code>, <code>pop</code>, <code>top</code>, and <code>empty</code>.</li>
+	<li>All the calls to <code>pop</code> and <code>top</code> are valid.</li>
+</ul>
+
+<p>&nbsp;</p>
+<strong>Follow-up:</strong> Can you implement the stack such that each operation is <strong><a href="https://en.wikipedia.org/wiki/Amortized_analysis" target="_blank">amortized</a></strong> <code>O(1)</code> time complexity? In other words, performing <code>n</code> operations will take overall <code>O(n)</code> time even if one of those operations may take longer. You can use more than two queues.
+
+## Related Topics
+
+- [Stack](https://leetcode-cn.com/tag/stack)
+- [Design](https://leetcode-cn.com/tag/design)
+
+## Similar Questions
+
+- [Implement Queue using Stacks](../implement-queue-using-stacks/README_EN.md)

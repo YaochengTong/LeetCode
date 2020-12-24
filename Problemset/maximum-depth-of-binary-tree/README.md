@@ -1,36 +1,59 @@
 
-| [English](README_EN.md) | 简体中文 |
+| English | [简体中文](README.md) |
 
-# [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+# [104. Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 
-## 题目描述
+## Description
 
-<p>给定一个二叉树，找出其最大深度。</p>
+<p>Given the <code>root</code> of a binary tree, return <em>its maximum depth</em>.</p>
 
-<p>二叉树的深度为根节点到最远叶子节点的最长路径上的节点数。</p>
+<p>A binary tree&#39;s <strong>maximum depth</strong>&nbsp;is the number of nodes along the longest path from the root node down to the farthest leaf node.</p>
 
-<p><strong>说明:</strong>&nbsp;叶子节点是指没有子节点的节点。</p>
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/11/26/tmp-tree.jpg" style="width: 400px; height: 277px;" />
+<pre>
+<strong>Input:</strong> root = [3,9,20,null,null,15,7]
+<strong>Output:</strong> 3
+</pre>
 
-<p><strong>示例：</strong><br>
-给定二叉树 <code>[3,9,20,null,null,15,7]</code>，</p>
+<p><strong>Example 2:</strong></p>
 
-<pre>    3
-   / \
-  9  20
-    /  \
-   15   7</pre>
+<pre>
+<strong>Input:</strong> root = [1,null,2]
+<strong>Output:</strong> 2
+</pre>
 
-<p>返回它的最大深度&nbsp;3 。</p>
+<p><strong>Example 3:</strong></p>
 
+<pre>
+<strong>Input:</strong> root = []
+<strong>Output:</strong> 0
+</pre>
 
-## 相关话题
+<p><strong>Example 4:</strong></p>
 
-- [树](https://leetcode-cn.com/tag/tree)
-- [深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)
-- [递归](https://leetcode-cn.com/tag/recursion)
+<pre>
+<strong>Input:</strong> root = [0]
+<strong>Output:</strong> 1
+</pre>
 
-## 相似题目
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-- [平衡二叉树](../balanced-binary-tree/README.md)
-- [二叉树的最小深度](../minimum-depth-of-binary-tree/README.md)
-- [N 叉树的最大深度](../maximum-depth-of-n-ary-tree/README.md)
+<ul>
+	<li>The number of nodes in the tree is in the range <code>[0, 10<sup>4</sup>]</code>.</li>
+	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
+</ul>
+
+## Related Topics
+
+- [Tree](https://leetcode-cn.com/tag/tree)
+- [Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)
+- [Recursion](https://leetcode-cn.com/tag/recursion)
+
+## Similar Questions
+
+- [Balanced Binary Tree](../balanced-binary-tree/README_EN.md)
+- [Minimum Depth of Binary Tree](../minimum-depth-of-binary-tree/README_EN.md)
+- [Maximum Depth of N-ary Tree](../maximum-depth-of-n-ary-tree/README_EN.md)

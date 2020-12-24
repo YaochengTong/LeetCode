@@ -1,77 +1,79 @@
 
-| [English](README_EN.md) | 简体中文 |
+| English | [简体中文](README.md) |
 
-# [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+# [94. Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 
-## 题目描述
+## Description
 
-<p>给定一个二叉树的根节点 <code>root</code> ，返回它的 <strong>中序</strong> 遍历。</p>
+<p>Given the <code>root</code> of a binary tree, return <em>the inorder traversal of its nodes&#39; values</em>.</p>
 
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/15/inorder_1.jpg" style="width: 202px; height: 324px;" />
 <pre>
-<strong>输入：</strong>root = [1,null,2,3]
-<strong>输出：</strong>[1,3,2]
+<strong>Input:</strong> root = [1,null,2,3]
+<strong>Output:</strong> [1,3,2]
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong>Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>root = []
-<strong>输出：</strong>[]
+<strong>Input:</strong> root = []
+<strong>Output:</strong> []
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong>Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>root = [1]
-<strong>输出：</strong>[1]
+<strong>Input:</strong> root = [1]
+<strong>Output:</strong> [1]
 </pre>
 
-<p><strong>示例 4：</strong></p>
+<p><strong>Example 4:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/15/inorder_5.jpg" style="width: 202px; height: 202px;" />
 <pre>
-<strong>输入：</strong>root = [1,2]
-<strong>输出：</strong>[2,1]
+<strong>Input:</strong> root = [1,2]
+<strong>Output:</strong> [2,1]
 </pre>
 
-<p><strong>示例 5：</strong></p>
+<p><strong>Example 5:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2020/09/15/inorder_4.jpg" style="width: 202px; height: 202px;" />
 <pre>
-<strong>输入：</strong>root = [1,null,2]
-<strong>输出：</strong>[1,2]
+<strong>Input:</strong> root = [1,null,2]
+<strong>Output:</strong> [1,2]
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树中节点数目在范围 <code>[0, 100]</code> 内</li>
-	<li><code>-100 <= Node.val <= 100</code></li>
+	<li>The number of nodes in the tree is in the range <code>[0, 100]</code>.</li>
+	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
 </ul>
 
-<p> </p>
+<p>&nbsp;</p>
 
-<p><strong>进阶:</strong> 递归算法很简单，你可以通过迭代算法完成吗？</p>
+<p><strong>Follow up:</strong></p>
+
+<p>Recursive solution is trivial, could you do it iteratively?</p>
+
+<p>&nbsp;</p>
 
 
-## 相关话题
+## Related Topics
 
-- [栈](https://leetcode-cn.com/tag/stack)
-- [树](https://leetcode-cn.com/tag/tree)
-- [哈希表](https://leetcode-cn.com/tag/hash-table)
+- [Stack](https://leetcode-cn.com/tag/stack)
+- [Tree](https://leetcode-cn.com/tag/tree)
+- [Hash Table](https://leetcode-cn.com/tag/hash-table)
 
-## 相似题目
+## Similar Questions
 
-- [验证二叉搜索树](../validate-binary-search-tree/README.md)
-- [二叉树的前序遍历](../binary-tree-preorder-traversal/README.md)
-- [二叉树的后序遍历](../binary-tree-postorder-traversal/README.md)
-- [二叉搜索树迭代器](../binary-search-tree-iterator/README.md)
-- [二叉搜索树中第K小的元素](../kth-smallest-element-in-a-bst/README.md)
-- [最接近的二叉搜索树值 II](../closest-binary-search-tree-value-ii/README.md)
-- [二叉搜索树中的顺序后继](../inorder-successor-in-bst/README.md)
-- [将二叉搜索树转化为排序的双向链表](../convert-binary-search-tree-to-sorted-doubly-linked-list/README.md)
-- [二叉搜索树节点最小距离](../minimum-distance-between-bst-nodes/README.md)
+- [Validate Binary Search Tree](../validate-binary-search-tree/README_EN.md)
+- [Binary Tree Preorder Traversal](../binary-tree-preorder-traversal/README_EN.md)
+- [Binary Tree Postorder Traversal](../binary-tree-postorder-traversal/README_EN.md)
+- [Binary Search Tree Iterator](../binary-search-tree-iterator/README_EN.md)
+- [Kth Smallest Element in a BST](../kth-smallest-element-in-a-bst/README_EN.md)
+- [Closest Binary Search Tree Value II](../closest-binary-search-tree-value-ii/README_EN.md)
+- [Inorder Successor in BST](../inorder-successor-in-bst/README_EN.md)
+- [Convert Binary Search Tree to Sorted Doubly Linked List](../convert-binary-search-tree-to-sorted-doubly-linked-list/README_EN.md)
+- [Minimum Distance Between BST Nodes](../minimum-distance-between-bst-nodes/README_EN.md)

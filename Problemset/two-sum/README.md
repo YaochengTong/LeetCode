@@ -1,36 +1,61 @@
 
-| [English](README_EN.md) | 简体中文 |
+| English | [简体中文](README.md) |
 
-# [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
+# [1. Two Sum](https://leetcode-cn.com/problems/two-sum/)
 
-## 题目描述
+## Description
 
-<p>给定一个整数数组 <code>nums</code>&nbsp;和一个目标值 <code>target</code>，请你在该数组中找出和为目标值的那&nbsp;<strong>两个</strong>&nbsp;整数，并返回他们的数组下标。</p>
+<p>Given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
 
-<p>你可以假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。</p>
+<p>You may assume that each input would have <strong><em>exactly</em> one solution</strong>, and you may not use the <em>same</em> element twice.</p>
+
+<p>You can return the answer in any order.</p>
 
 <p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-<p><strong>示例:</strong></p>
-
-<pre>给定 nums = [2, 7, 11, 15], target = 9
-
-因为 nums[<strong>0</strong>] + nums[<strong>1</strong>] = 2 + 7 = 9
-所以返回 [<strong>0, 1</strong>]
+<pre>
+<strong>Input:</strong> nums = [2,7,11,15], target = 9
+<strong>Output:</strong> [0,1]
+<strong>Output:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].
 </pre>
 
+<p><strong>Example 2:</strong></p>
 
-## 相关话题
+<pre>
+<strong>Input:</strong> nums = [3,2,4], target = 6
+<strong>Output:</strong> [1,2]
+</pre>
 
-- [数组](https://leetcode-cn.com/tag/array)
-- [哈希表](https://leetcode-cn.com/tag/hash-table)
+<p><strong>Example 3:</strong></p>
 
-## 相似题目
+<pre>
+<strong>Input:</strong> nums = [3,3], target = 6
+<strong>Output:</strong> [0,1]
+</pre>
 
-- [三数之和](../3sum/README.md)
-- [四数之和](../4sum/README.md)
-- [两数之和 II - 输入有序数组](../two-sum-ii-input-array-is-sorted/README.md)
-- [两数之和 III - 数据结构设计](../two-sum-iii-data-structure-design/README.md)
-- [和为K的子数组](../subarray-sum-equals-k/README.md)
-- [两数之和 IV - 输入 BST](../two-sum-iv-input-is-a-bst/README.md)
-- [小于 K 的两数之和](../two-sum-less-than-k/README.md)
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>2 &lt;= nums.length &lt;= 10<sup>3</sup></code></li>
+	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
+	<li><code>-10<sup>9</sup> &lt;= target &lt;= 10<sup>9</sup></code></li>
+	<li><strong>Only one valid answer exists.</strong></li>
+</ul>
+
+
+## Related Topics
+
+- [Array](https://leetcode-cn.com/tag/array)
+- [Hash Table](https://leetcode-cn.com/tag/hash-table)
+
+## Similar Questions
+
+- [3Sum](../3sum/README_EN.md)
+- [4Sum](../4sum/README_EN.md)
+- [Two Sum II - Input array is sorted](../two-sum-ii-input-array-is-sorted/README_EN.md)
+- [Two Sum III - Data structure design](../two-sum-iii-data-structure-design/README_EN.md)
+- [Subarray Sum Equals K](../subarray-sum-equals-k/README_EN.md)
+- [Two Sum IV - Input is a BST](../two-sum-iv-input-is-a-bst/README_EN.md)
+- [Two Sum Less Than K](../two-sum-less-than-k/README_EN.md)
