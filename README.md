@@ -13,7 +13,7 @@
 
 <p align="center">
     <br>
-    <b>Last updated: 2020-12-29 20:19:11</b>
+    <b>Last updated: 2020-12-30 01:22:53</b>
     <br>
 </p>
 
@@ -30,7 +30,7 @@
 |700|[Search in a Binary Search Tree](Problemset/search-in-a-binary-search-tree/README.md)|[Java](Problemset/search-in-a-binary-search-tree/search-in-a-binary-search-tree.java)|75.0%|easy|[Tree](https://leetcode-cn.com/tag/tree)|
 |724|[Find Pivot Index](Problemset/find-pivot-index/README.md)|[Java](Problemset/find-pivot-index/find-pivot-index.java)|39.5%|easy|[Array](https://leetcode-cn.com/tag/array)|
 |561|[Array Partition I](Problemset/array-partition-i/README.md)|[Java](Problemset/array-partition-i/array-partition-i.java)|72.8%|easy|[Array](https://leetcode-cn.com/tag/array)|
-|498|[Diagonal Traverse](Problemset/diagonal-traverse/README.md)|[Java](Problemset/diagonal-traverse/diagonal-traverse.java)|42.7%|medium||
+|498|[Diagonal Traverse](Problemset/diagonal-traverse/README.md)|[Java](Problemset/diagonal-traverse/diagonal-traverse.java)<br>[Java](Problemset/diagonal-traverse/diagonal-traverse.java)|42.7%|medium||
 |346|[Moving Average from Data Stream](Problemset/moving-average-from-data-stream/README.md)🔒|[Java](Problemset/moving-average-from-data-stream/moving-average-from-data-stream.java)|69.3%|easy|[Design](https://leetcode-cn.com/tag/design)<br>[Queue](https://leetcode-cn.com/tag/queue)|
 |328|[Odd Even Linked List](Problemset/odd-even-linked-list/README.md)|[Java](Problemset/odd-even-linked-list/odd-even-linked-list.java)|65.5%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |297|[Serialize and Deserialize Binary Tree](Problemset/serialize-and-deserialize-binary-tree/README.md)|[Java](Problemset/serialize-and-deserialize-binary-tree/serialize-and-deserialize-binary-tree.java)|53.1%|hard|[Tree](https://leetcode-cn.com/tag/tree)<br>[Design](https://leetcode-cn.com/tag/design)|
