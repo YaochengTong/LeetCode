@@ -13,7 +13,7 @@
 
 <p align="center">
     <br>
-    <b>最近一次更新: 2020-12-30 01:26:19</b>
+    <b>最近一次更新: 2020-12-30 12:39:39</b>
     <br>
 </p>
 
@@ -29,7 +29,7 @@
 |701|[二叉搜索树中的插入操作](Problemset/insert-into-a-binary-search-tree/README_CN.md)|[Java](Problemset/insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.java)|72.0%|中等|[树](https://leetcode-cn.com/tag/tree)|
 |700|[二叉搜索树中的搜索](Problemset/search-in-a-binary-search-tree/README_CN.md)|[Java](Problemset/search-in-a-binary-search-tree/search-in-a-binary-search-tree.java)|75.0%|简单|[树](https://leetcode-cn.com/tag/tree)|
 |724|[寻找数组的中心索引](Problemset/find-pivot-index/README_CN.md)|[Java](Problemset/find-pivot-index/find-pivot-index.java)|39.5%|简单|[数组](https://leetcode-cn.com/tag/array)|
-|561|[数组拆分 I](Problemset/array-partition-i/README_CN.md)|[Java](Problemset/array-partition-i/array-partition-i.java)|72.8%|简单|[数组](https://leetcode-cn.com/tag/array)|
+|561|[数组拆分 I](Problemset/array-partition-i/README_CN.md)|[Java](Problemset/array-partition-i/array-partition-i.java)|72.9%|简单|[数组](https://leetcode-cn.com/tag/array)|
 |498|[对角线遍历](Problemset/diagonal-traverse/README_CN.md)|[Java](Problemset/diagonal-traverse/diagonal-traverse.java)|42.7%|中等||
 |346|[数据流中的移动平均值](Problemset/moving-average-from-data-stream/README_CN.md)🔒|[Java](Problemset/moving-average-from-data-stream/moving-average-from-data-stream.java)|69.3%|简单|[设计](https://leetcode-cn.com/tag/design)<br>[队列](https://leetcode-cn.com/tag/queue)|
 |328|[奇偶链表](Problemset/odd-even-linked-list/README_CN.md)|[Java](Problemset/odd-even-linked-list/odd-even-linked-list.java)|65.5%|中等|[链表](https://leetcode-cn.com/tag/linked-list)|

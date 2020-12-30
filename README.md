@@ -13,7 +13,7 @@
 
 <p align="center">
     <br>
-    <b>Last updated: 2020-12-30 01:26:19</b>
+    <b>Last updated: 2020-12-30 12:39:39</b>
     <br>
 </p>
 
@@ -29,7 +29,7 @@
 |701|[Insert into a Binary Search Tree](Problemset/insert-into-a-binary-search-tree/README.md)|[Java](Problemset/insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.java)|72.0%|medium|[Tree](https://leetcode-cn.com/tag/tree)|
 |700|[Search in a Binary Search Tree](Problemset/search-in-a-binary-search-tree/README.md)|[Java](Problemset/search-in-a-binary-search-tree/search-in-a-binary-search-tree.java)|75.0%|easy|[Tree](https://leetcode-cn.com/tag/tree)|
 |724|[Find Pivot Index](Problemset/find-pivot-index/README.md)|[Java](Problemset/find-pivot-index/find-pivot-index.java)|39.5%|easy|[Array](https://leetcode-cn.com/tag/array)|
-|561|[Array Partition I](Problemset/array-partition-i/README.md)|[Java](Problemset/array-partition-i/array-partition-i.java)|72.8%|easy|[Array](https://leetcode-cn.com/tag/array)|
+|561|[Array Partition I](Problemset/array-partition-i/README.md)|[Java](Problemset/array-partition-i/array-partition-i.java)|72.9%|easy|[Array](https://leetcode-cn.com/tag/array)|
 |498|[Diagonal Traverse](Problemset/diagonal-traverse/README.md)|[Java](Problemset/diagonal-traverse/diagonal-traverse.java)|42.7%|medium||
 |346|[Moving Average from Data Stream](Problemset/moving-average-from-data-stream/README.md)🔒|[Java](Problemset/moving-average-from-data-stream/moving-average-from-data-stream.java)|69.3%|easy|[Design](https://leetcode-cn.com/tag/design)<br>[Queue](https://leetcode-cn.com/tag/queue)|
 |328|[Odd Even Linked List](Problemset/odd-even-linked-list/README.md)|[Java](Problemset/odd-even-linked-list/odd-even-linked-list.java)|65.5%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)|
