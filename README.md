@@ -13,7 +13,7 @@
 
 <p align="center">
     <br>
-    <b>Last updated: 2020-12-30 12:39:39</b>
+    <b>Last updated: 2020-12-31 11:58:10</b>
     <br>
 </p>
 
@@ -24,13 +24,13 @@
 |面试题 01.07|[Rotate Matrix LCCI](Problemset/rotate-matrix-lcci/README.md)|[Java](Problemset/rotate-matrix-lcci/rotate-matrix-lcci.java)|76.0%|medium|[Array](https://leetcode-cn.com/tag/array)|
 |915|[Partition Array into Disjoint Intervals](Problemset/partition-array-into-disjoint-intervals/README.md)|[Java](Problemset/partition-array-into-disjoint-intervals/partition-array-into-disjoint-intervals.java)|45.2%|medium|[Array](https://leetcode-cn.com/tag/array)|
 |912|[Sort an Array](Problemset/sort-an-array/README.md)|[Java](Problemset/sort-an-array/sort-an-array.java)|59.6%|medium||
-|622|[Design Circular Queue](Problemset/design-circular-queue/README.md)|[Java](Problemset/design-circular-queue/design-circular-queue.java)|42.1%|medium|[Design](https://leetcode-cn.com/tag/design)<br>[Queue](https://leetcode-cn.com/tag/queue)|
+|622|[Design Circular Queue](Problemset/design-circular-queue/README.md)|[Java](Problemset/design-circular-queue/design-circular-queue.java)|42.2%|medium|[Design](https://leetcode-cn.com/tag/design)<br>[Queue](https://leetcode-cn.com/tag/queue)|
 |707|[Design Linked List](Problemset/design-linked-list/README.md)|[Java](Problemset/design-linked-list/design-linked-list.java)|29.5%|medium|[Design](https://leetcode-cn.com/tag/design)<br>[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |701|[Insert into a Binary Search Tree](Problemset/insert-into-a-binary-search-tree/README.md)|[Java](Problemset/insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.java)|72.0%|medium|[Tree](https://leetcode-cn.com/tag/tree)|
 |700|[Search in a Binary Search Tree](Problemset/search-in-a-binary-search-tree/README.md)|[Java](Problemset/search-in-a-binary-search-tree/search-in-a-binary-search-tree.java)|75.0%|easy|[Tree](https://leetcode-cn.com/tag/tree)|
 |724|[Find Pivot Index](Problemset/find-pivot-index/README.md)|[Java](Problemset/find-pivot-index/find-pivot-index.java)|39.5%|easy|[Array](https://leetcode-cn.com/tag/array)|
 |561|[Array Partition I](Problemset/array-partition-i/README.md)|[Java](Problemset/array-partition-i/array-partition-i.java)|72.9%|easy|[Array](https://leetcode-cn.com/tag/array)|
-|498|[Diagonal Traverse](Problemset/diagonal-traverse/README.md)|[Java](Problemset/diagonal-traverse/diagonal-traverse.java)|42.7%|medium||
+|498|[Diagonal Traverse](Problemset/diagonal-traverse/README.md)|[Java](Problemset/diagonal-traverse/diagonal-traverse.java)|42.8%|medium||
 |346|[Moving Average from Data Stream](Problemset/moving-average-from-data-stream/README.md)🔒|[Java](Problemset/moving-average-from-data-stream/moving-average-from-data-stream.java)|69.3%|easy|[Design](https://leetcode-cn.com/tag/design)<br>[Queue](https://leetcode-cn.com/tag/queue)|
 |328|[Odd Even Linked List](Problemset/odd-even-linked-list/README.md)|[Java](Problemset/odd-even-linked-list/odd-even-linked-list.java)|65.5%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |297|[Serialize and Deserialize Binary Tree](Problemset/serialize-and-deserialize-binary-tree/README.md)|[Java](Problemset/serialize-and-deserialize-binary-tree/serialize-and-deserialize-binary-tree.java)|53.1%|hard|[Tree](https://leetcode-cn.com/tag/tree)<br>[Design](https://leetcode-cn.com/tag/design)|
@@ -49,7 +49,7 @@
 |117|[Populating Next Right Pointers in Each Node II](Problemset/populating-next-right-pointers-in-each-node-ii/README.md)|[Java](Problemset/populating-next-right-pointers-in-each-node-ii/populating-next-right-pointers-in-each-node-ii.java)|59.2%|medium|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)|
 |116|[Populating Next Right Pointers in Each Node](Problemset/populating-next-right-pointers-in-each-node/README.md)|[Java](Problemset/populating-next-right-pointers-in-each-node/populating-next-right-pointers-in-each-node.java)|68.3%|medium|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)<br>[Breadth-first Search](https://leetcode-cn.com/tag/breadth-first-search)|
 |112|[Path Sum](Problemset/path-sum/README.md)|[Java](Problemset/path-sum/path-sum.java)|51.6%|easy|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)|
-|106|[Construct Binary Tree from Inorder and Postorder Traversal](Problemset/construct-binary-tree-from-inorder-and-postorder-traversal/README.md)|[Java](Problemset/construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal.java)|70.9%|medium|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)<br>[Array](https://leetcode-cn.com/tag/array)|
+|106|[Construct Binary Tree from Inorder and Postorder Traversal](Problemset/construct-binary-tree-from-inorder-and-postorder-traversal/README.md)|[Java](Problemset/construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal.java)|70.8%|medium|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)<br>[Array](https://leetcode-cn.com/tag/array)|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](Problemset/construct-binary-tree-from-preorder-and-inorder-traversal/README.md)|[Java](Problemset/construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.java)|68.7%|medium|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)<br>[Array](https://leetcode-cn.com/tag/array)|
 |104|[Maximum Depth of Binary Tree](Problemset/maximum-depth-of-binary-tree/README.md)|[Java](Problemset/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.java)|75.5%|easy|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)<br>[Recursion](https://leetcode-cn.com/tag/recursion)|
 |102|[Binary Tree Level Order Traversal](Problemset/binary-tree-level-order-traversal/README.md)|[Java](Problemset/binary-tree-level-order-traversal/binary-tree-level-order-traversal.java)|63.9%|medium|[Tree](https://leetcode-cn.com/tag/tree)<br>[Breadth-first Search](https://leetcode-cn.com/tag/breadth-first-search)|
