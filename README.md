@@ -4,16 +4,16 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/User-YaochengTong-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/Solved-45/1918-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/Solved-46/1923-blue.svg?" alt="">
     <img src="https://img.shields.io/badge/Easy-19-green.svg?" alt="">
-    <img src="https://img.shields.io/badge/Medium-25-orange.svg?" alt="">
+    <img src="https://img.shields.io/badge/Medium-26-orange.svg?" alt="">
     <img src="https://img.shields.io/badge/Hard-1-red.svg?" alt="">
 </p>
 <h1 align="center">My LeetCode Solutions</h1>
 
 <p align="center">
     <br>
-    <b>Last updated: 2020-12-31 11:58:10</b>
+    <b>Last updated: 2021-01-03 01:49:50</b>
     <br>
 </p>
 
@@ -35,11 +35,11 @@
 |328|[Odd Even Linked List](Problemset/odd-even-linked-list/README.md)|[Java](Problemset/odd-even-linked-list/odd-even-linked-list.java)|65.5%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |297|[Serialize and Deserialize Binary Tree](Problemset/serialize-and-deserialize-binary-tree/README.md)|[Java](Problemset/serialize-and-deserialize-binary-tree/serialize-and-deserialize-binary-tree.java)|53.1%|hard|[Tree](https://leetcode-cn.com/tag/tree)<br>[Design](https://leetcode-cn.com/tag/design)|
 |236|[Lowest Common Ancestor of a Binary Tree](Problemset/lowest-common-ancestor-of-a-binary-tree/README.md)|[Java](Problemset/lowest-common-ancestor-of-a-binary-tree/lowest-common-ancestor-of-a-binary-tree.java)|66.0%|medium|[Tree](https://leetcode-cn.com/tag/tree)|
-|234|[Palindrome Linked List](Problemset/palindrome-linked-list/README.md)|[Java](Problemset/palindrome-linked-list/palindrome-linked-list.java)|45.1%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
+|234|[Palindrome Linked List](Problemset/palindrome-linked-list/README.md)|[Java](Problemset/palindrome-linked-list/palindrome-linked-list.java)|45.2%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
 |232|[Implement Queue using Stacks](Problemset/implement-queue-using-stacks/README.md)|[Java](Problemset/implement-queue-using-stacks/implement-queue-using-stacks.java)|65.7%|easy|[Stack](https://leetcode-cn.com/tag/stack)<br>[Design](https://leetcode-cn.com/tag/design)|
 |225|[Implement Stack using Queues](Problemset/implement-stack-using-queues/README.md)|[Java](Problemset/implement-stack-using-queues/implement-stack-using-queues.java)|66.3%|easy|[Stack](https://leetcode-cn.com/tag/stack)<br>[Design](https://leetcode-cn.com/tag/design)|
 |206|[Reverse Linked List](Problemset/reverse-linked-list/README.md)|[Java](Problemset/reverse-linked-list/reverse-linked-list.java)|71.2%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
-|203|[Remove Linked List Elements](Problemset/remove-linked-list-elements/README.md)|[Java](Problemset/remove-linked-list-elements/remove-linked-list-elements.java)|46.7%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
+|203|[Remove Linked List Elements](Problemset/remove-linked-list-elements/README.md)|[Java](Problemset/remove-linked-list-elements/remove-linked-list-elements.java)|46.8%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |160|[Intersection of Two Linked Lists](Problemset/intersection-of-two-linked-lists/README.md)|[Java](Problemset/intersection-of-two-linked-lists/intersection-of-two-linked-lists.java)|57.2%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |155|[Min Stack](Problemset/min-stack/README.md)|[Java](Problemset/min-stack/min-stack.java)|55.9%|easy|[Stack](https://leetcode-cn.com/tag/stack)<br>[Design](https://leetcode-cn.com/tag/design)|
 |145|[Binary Tree Postorder Traversal](Problemset/binary-tree-postorder-traversal/README.md)|[Java](Problemset/binary-tree-postorder-traversal/binary-tree-postorder-traversal.java)|73.8%|medium|[Stack](https://leetcode-cn.com/tag/stack)<br>[Tree](https://leetcode-cn.com/tag/tree)|
@@ -58,7 +58,8 @@
 |98|[Validate Binary Search Tree](Problemset/validate-binary-search-tree/README.md)|[Java](Problemset/validate-binary-search-tree/validate-binary-search-tree.java)|33.1%|medium|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)<br>[Recursion](https://leetcode-cn.com/tag/recursion)|
 |94|[Binary Tree Inorder Traversal](Problemset/binary-tree-inorder-traversal/README.md)|[Java](Problemset/binary-tree-inorder-traversal/binary-tree-inorder-traversal.java)|74.5%|medium|[Stack](https://leetcode-cn.com/tag/stack)<br>[Tree](https://leetcode-cn.com/tag/tree)<br>[Hash Table](https://leetcode-cn.com/tag/hash-table)|
 |75|[Sort Colors](Problemset/sort-colors/README.md)|[Java](Problemset/sort-colors/sort-colors.java)|57.1%|medium|[Sort](https://leetcode-cn.com/tag/sort)<br>[Array](https://leetcode-cn.com/tag/array)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
-|56|[Merge Intervals](Problemset/merge-intervals/README.md)|[Java](Problemset/merge-intervals/merge-intervals.java)|43.8%|medium|[Sort](https://leetcode-cn.com/tag/sort)<br>[Array](https://leetcode-cn.com/tag/array)|
+|56|[Merge Intervals](Problemset/merge-intervals/README.md)|[Java](Problemset/merge-intervals/merge-intervals.java)|43.9%|medium|[Sort](https://leetcode-cn.com/tag/sort)<br>[Array](https://leetcode-cn.com/tag/array)|
+|54|[Spiral Matrix](Problemset/spiral-matrix/README.md)|[Java](Problemset/spiral-matrix/spiral-matrix.java)|42.0%|medium|[Array](https://leetcode-cn.com/tag/array)|
 |48|[Rotate Image](Problemset/rotate-image/README.md)|[Java](Problemset/rotate-image/rotate-image.java)|72.0%|medium|[Array](https://leetcode-cn.com/tag/array)|
 |35|[Search Insert Position](Problemset/search-insert-position/README.md)|[Java](Problemset/search-insert-position/search-insert-position.java)|46.9%|easy|[Array](https://leetcode-cn.com/tag/array)<br>[Binary Search](https://leetcode-cn.com/tag/binary-search)|
 |21|[Merge Two Sorted Lists](Problemset/merge-two-sorted-lists/README.md)|[Java](Problemset/merge-two-sorted-lists/merge-two-sorted-lists.java)|65.0%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
