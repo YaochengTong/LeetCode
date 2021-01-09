@@ -4,8 +4,8 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/用户-YaochengTong-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/已解决-47/1924-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/简单-19-green.svg?" alt="">
+    <img src="https://img.shields.io/badge/已解决-49/1925-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/简单-21-green.svg?" alt="">
     <img src="https://img.shields.io/badge/中等-27-orange.svg?" alt="">
     <img src="https://img.shields.io/badge/困难-1-red.svg?" alt="">
 </p>
@@ -13,7 +13,7 @@
 
 <p align="center">
     <br>
-    <b>最近一次更新: 2021-01-08 02:38:19</b>
+    <b>最近一次更新: 2021-01-09 06:00:34</b>
     <br>
 </p>
 
@@ -25,7 +25,7 @@
 |1424|[对角线遍历 II](Problemset/diagonal-traverse-ii/README_CN.md)|[Java](Problemset/diagonal-traverse-ii/diagonal-traverse-ii.java)|38.3%|中等|[排序](https://leetcode-cn.com/tag/sort)<br>[数组](https://leetcode-cn.com/tag/array)|
 |915|[分割数组](Problemset/partition-array-into-disjoint-intervals/README_CN.md)|[Java](Problemset/partition-array-into-disjoint-intervals/partition-array-into-disjoint-intervals.java)|45.2%|中等|[数组](https://leetcode-cn.com/tag/array)|
 |912|[排序数组](Problemset/sort-an-array/README_CN.md)|[Java](Problemset/sort-an-array/sort-an-array.java)|59.6%|中等||
-|622|[设计循环队列](Problemset/design-circular-queue/README_CN.md)|[Java](Problemset/design-circular-queue/design-circular-queue.java)|42.1%|中等|[设计](https://leetcode-cn.com/tag/design)<br>[队列](https://leetcode-cn.com/tag/queue)|
+|622|[设计循环队列](Problemset/design-circular-queue/README_CN.md)|[Java](Problemset/design-circular-queue/design-circular-queue.java)|42.2%|中等|[设计](https://leetcode-cn.com/tag/design)<br>[队列](https://leetcode-cn.com/tag/queue)|
 |707|[设计链表](Problemset/design-linked-list/README_CN.md)|[Java](Problemset/design-linked-list/design-linked-list.java)|29.6%|中等|[设计](https://leetcode-cn.com/tag/design)<br>[链表](https://leetcode-cn.com/tag/linked-list)|
 |701|[二叉搜索树中的插入操作](Problemset/insert-into-a-binary-search-tree/README_CN.md)|[Java](Problemset/insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.java)|72.0%|中等|[树](https://leetcode-cn.com/tag/tree)|
 |700|[二叉搜索树中的搜索](Problemset/search-in-a-binary-search-tree/README_CN.md)|[Java](Problemset/search-in-a-binary-search-tree/search-in-a-binary-search-tree.java)|75.0%|简单|[树](https://leetcode-cn.com/tag/tree)|
@@ -53,7 +53,7 @@
 |106|[从中序与后序遍历序列构造二叉树](Problemset/construct-binary-tree-from-inorder-and-postorder-traversal/README_CN.md)|[Java](Problemset/construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal.java)|70.9%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[数组](https://leetcode-cn.com/tag/array)|
 |105|[从前序与中序遍历序列构造二叉树](Problemset/construct-binary-tree-from-preorder-and-inorder-traversal/README_CN.md)|[Java](Problemset/construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.java)|68.8%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[数组](https://leetcode-cn.com/tag/array)|
 |104|[二叉树的最大深度](Problemset/maximum-depth-of-binary-tree/README_CN.md)|[Java](Problemset/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.java)|75.5%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[递归](https://leetcode-cn.com/tag/recursion)|
-|102|[二叉树的层序遍历](Problemset/binary-tree-level-order-traversal/README_CN.md)|[Java](Problemset/binary-tree-level-order-traversal/binary-tree-level-order-traversal.java)|63.9%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
+|102|[二叉树的层序遍历](Problemset/binary-tree-level-order-traversal/README_CN.md)|[Java](Problemset/binary-tree-level-order-traversal/binary-tree-level-order-traversal.java)|64.0%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
 |101|[对称二叉树](Problemset/symmetric-tree/README_CN.md)|[Java](Problemset/symmetric-tree/symmetric-tree.java)|53.4%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search)|
 |100|[相同的树](Problemset/same-tree/README_CN.md)|[Java](Problemset/same-tree/same-tree.java)|60.2%|简单|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)|
 |98|[验证二叉搜索树](Problemset/validate-binary-search-tree/README_CN.md)|[Java](Problemset/validate-binary-search-tree/validate-binary-search-tree.java)|33.2%|中等|[树](https://leetcode-cn.com/tag/tree)<br>[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search)<br>[递归](https://leetcode-cn.com/tag/recursion)|
@@ -63,7 +63,9 @@
 |54|[螺旋矩阵](Problemset/spiral-matrix/README_CN.md)|[Java](Problemset/spiral-matrix/spiral-matrix.java)|42.1%|中等|[数组](https://leetcode-cn.com/tag/array)|
 |48|[旋转图像](Problemset/rotate-image/README_CN.md)|[Java](Problemset/rotate-image/rotate-image.java)|72.0%|中等|[数组](https://leetcode-cn.com/tag/array)|
 |35|[搜索插入位置](Problemset/search-insert-position/README_CN.md)|[Java](Problemset/search-insert-position/search-insert-position.java)|47.0%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
-|21|[合并两个有序链表](Problemset/merge-two-sorted-lists/README_CN.md)|[Java](Problemset/merge-two-sorted-lists/merge-two-sorted-lists.java)|65.0%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
+|28|[实现 strStr()](Problemset/implement-strstr/README_CN.md)|[Java](Problemset/implement-strstr/implement-strstr.java)|39.6%|简单|[双指针](https://leetcode-cn.com/tag/two-pointers)<br>[字符串](https://leetcode-cn.com/tag/string)|
+|21|[合并两个有序链表](Problemset/merge-two-sorted-lists/README_CN.md)|[Java](Problemset/merge-two-sorted-lists/merge-two-sorted-lists.java)|65.1%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |19|[删除链表的倒数第N个节点](Problemset/remove-nth-node-from-end-of-list/README_CN.md)|[Java](Problemset/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.java)|40.7%|中等|[链表](https://leetcode-cn.com/tag/linked-list)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
+|14|[最长公共前缀](Problemset/longest-common-prefix/README_CN.md)|[Java](Problemset/longest-common-prefix/longest-common-prefix.java)|39.1%|简单|[字符串](https://leetcode-cn.com/tag/string)|
 |2|[两数相加](Problemset/add-two-numbers/README_CN.md)|[Java](Problemset/add-two-numbers/add-two-numbers.java)|39.2%|中等|[链表](https://leetcode-cn.com/tag/linked-list)<br>[数学](https://leetcode-cn.com/tag/math)|
 |1|[两数之和](Problemset/two-sum/README_CN.md)|[Python](Problemset/two-sum/two-sum.py)<br>[Python3](Problemset/two-sum/two-sum.py)|49.8%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[哈希表](https://leetcode-cn.com/tag/hash-table)|
