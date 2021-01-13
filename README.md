@@ -4,7 +4,7 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/User-YaochengTong-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/Solved-51/1933-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/Solved-51/1934-blue.svg?" alt="">
     <img src="https://img.shields.io/badge/Easy-21-green.svg?" alt="">
     <img src="https://img.shields.io/badge/Medium-29-orange.svg?" alt="">
     <img src="https://img.shields.io/badge/Hard-1-red.svg?" alt="">
@@ -13,7 +13,7 @@
 
 <p align="center">
     <br>
-    <b>Last updated: 2021-01-12 18:22:33</b>
+    <b>Last updated: 2021-01-13 04:53:18</b>
     <br>
 </p>
 
@@ -26,14 +26,14 @@
 |915|[Partition Array into Disjoint Intervals](Problemset/partition-array-into-disjoint-intervals/README.md)|[Java](Problemset/partition-array-into-disjoint-intervals/partition-array-into-disjoint-intervals.java)|45.2%|medium|[Array](https://leetcode-cn.com/tag/array)|
 |912|[Sort an Array](Problemset/sort-an-array/README.md)|[Java](Problemset/sort-an-array/sort-an-array.java)|59.6%|medium||
 |622|[Design Circular Queue](Problemset/design-circular-queue/README.md)|[Java](Problemset/design-circular-queue/design-circular-queue.java)|42.2%|medium|[Design](https://leetcode-cn.com/tag/design)<br>[Queue](https://leetcode-cn.com/tag/queue)|
-|707|[Design Linked List](Problemset/design-linked-list/README.md)|[Java](Problemset/design-linked-list/design-linked-list.java)|29.6%|medium|[Design](https://leetcode-cn.com/tag/design)<br>[Linked List](https://leetcode-cn.com/tag/linked-list)|
+|707|[Design Linked List](Problemset/design-linked-list/README.md)|[Java](Problemset/design-linked-list/design-linked-list.java)|29.7%|medium|[Design](https://leetcode-cn.com/tag/design)<br>[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |701|[Insert into a Binary Search Tree](Problemset/insert-into-a-binary-search-tree/README.md)|[Java](Problemset/insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.java)|72.0%|medium|[Tree](https://leetcode-cn.com/tag/tree)|
 |700|[Search in a Binary Search Tree](Problemset/search-in-a-binary-search-tree/README.md)|[Java](Problemset/search-in-a-binary-search-tree/search-in-a-binary-search-tree.java)|75.1%|easy|[Tree](https://leetcode-cn.com/tag/tree)|
 |724|[Find Pivot Index](Problemset/find-pivot-index/README.md)|[Java](Problemset/find-pivot-index/find-pivot-index.java)|39.6%|easy|[Array](https://leetcode-cn.com/tag/array)|
 |561|[Array Partition I](Problemset/array-partition-i/README.md)|[Java](Problemset/array-partition-i/array-partition-i.java)|72.9%|easy|[Array](https://leetcode-cn.com/tag/array)|
 |498|[Diagonal Traverse](Problemset/diagonal-traverse/README.md)|[Java](Problemset/diagonal-traverse/diagonal-traverse.java)|42.9%|medium||
 |346|[Moving Average from Data Stream](Problemset/moving-average-from-data-stream/README.md)🔒|[Java](Problemset/moving-average-from-data-stream/moving-average-from-data-stream.java)|69.5%|easy|[Design](https://leetcode-cn.com/tag/design)<br>[Queue](https://leetcode-cn.com/tag/queue)|
-|328|[Odd Even Linked List](Problemset/odd-even-linked-list/README.md)|[Java](Problemset/odd-even-linked-list/odd-even-linked-list.java)|65.5%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)|
+|328|[Odd Even Linked List](Problemset/odd-even-linked-list/README.md)|[Java](Problemset/odd-even-linked-list/odd-even-linked-list.java)|65.6%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |297|[Serialize and Deserialize Binary Tree](Problemset/serialize-and-deserialize-binary-tree/README.md)|[Java](Problemset/serialize-and-deserialize-binary-tree/serialize-and-deserialize-binary-tree.java)|53.3%|hard|[Tree](https://leetcode-cn.com/tag/tree)<br>[Design](https://leetcode-cn.com/tag/design)|
 |236|[Lowest Common Ancestor of a Binary Tree](Problemset/lowest-common-ancestor-of-a-binary-tree/README.md)|[Java](Problemset/lowest-common-ancestor-of-a-binary-tree/lowest-common-ancestor-of-a-binary-tree.java)|66.1%|medium|[Tree](https://leetcode-cn.com/tag/tree)|
 |234|[Palindrome Linked List](Problemset/palindrome-linked-list/README.md)|[Java](Problemset/palindrome-linked-list/palindrome-linked-list.java)|45.2%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
@@ -58,7 +58,7 @@
 |100|[Same Tree](Problemset/same-tree/README.md)|[Java](Problemset/same-tree/same-tree.java)|60.2%|easy|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)|
 |98|[Validate Binary Search Tree](Problemset/validate-binary-search-tree/README.md)|[Java](Problemset/validate-binary-search-tree/validate-binary-search-tree.java)|33.2%|medium|[Tree](https://leetcode-cn.com/tag/tree)<br>[Depth-first Search](https://leetcode-cn.com/tag/depth-first-search)<br>[Recursion](https://leetcode-cn.com/tag/recursion)|
 |94|[Binary Tree Inorder Traversal](Problemset/binary-tree-inorder-traversal/README.md)|[Java](Problemset/binary-tree-inorder-traversal/binary-tree-inorder-traversal.java)|74.6%|medium|[Stack](https://leetcode-cn.com/tag/stack)<br>[Tree](https://leetcode-cn.com/tag/tree)<br>[Hash Table](https://leetcode-cn.com/tag/hash-table)|
-|90|[Subsets II](Problemset/subsets-ii/README.md)|[Java](Problemset/subsets-ii/subsets-ii.java)|61.7%|medium|[Array](https://leetcode-cn.com/tag/array)<br>[Backtracking](https://leetcode-cn.com/tag/backtracking)|
+|90|[Subsets II](Problemset/subsets-ii/README.md)|[Java](Problemset/subsets-ii/subsets-ii.java)<br>[Java](Problemset/subsets-ii/subsets-ii.java)|61.7%|medium|[Array](https://leetcode-cn.com/tag/array)<br>[Backtracking](https://leetcode-cn.com/tag/backtracking)|
 |78|[Subsets](Problemset/subsets/README.md)|[Java](Problemset/subsets/subsets.java)|79.4%|medium|[Bit Manipulation](https://leetcode-cn.com/tag/bit-manipulation)<br>[Array](https://leetcode-cn.com/tag/array)<br>[Backtracking](https://leetcode-cn.com/tag/backtracking)|
 |75|[Sort Colors](Problemset/sort-colors/README.md)|[Java](Problemset/sort-colors/sort-colors.java)|57.2%|medium|[Sort](https://leetcode-cn.com/tag/sort)<br>[Array](https://leetcode-cn.com/tag/array)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
 |56|[Merge Intervals](Problemset/merge-intervals/README.md)|[Java](Problemset/merge-intervals/merge-intervals.java)|44.0%|medium|[Sort](https://leetcode-cn.com/tag/sort)<br>[Array](https://leetcode-cn.com/tag/array)|

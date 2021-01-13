@@ -1,28 +1,28 @@
 
 // @Title: 子集 II (Subsets II)
 // @Author: tongyaocheng@gmail.com
-// @Date: 2021-01-12 06:05:56
+// @Date: 2021-01-13 04:52:24
 // @Runtime: 1 ms
-// @Memory: 38.5 MB
+// @Memory: 38.8 MB
 
 class Solution {
 
-    List<List<Integer>> result = new ArrayList<>();
-    ArrayList<Integer> temp = new ArrayList<>();
-
     public List<List<Integer>> subsetsWithDup(int[] nums) {
+        List<List<Integer>> result = new ArrayList<>();
         Arrays.sort(nums);
-        backTrack(0,nums);
+        result.add(new ArrayList<>());
+        int p = 1;
+        for (int i = 0; i < nums.length; i++) {
+            int currentSize = result.size();
+            for (int j = 0; j < currentSize; j++) {
+                if (i > 0 && nums[i] == nums[i - 1] && j < p ) { continue; }
+                List<Integer> temp = new ArrayList<>(result.get(j));
+                temp.add(nums[i]);
+                result.add(temp);
+            }
+            p = currentSize;
+        }
         return result;
     }
 
-    private void backTrack(int i, int[] nums) {
-        result.add(new ArrayList<>(temp));
-        for (int j = i; j < nums.length; j++) {
-            if(j>i && nums[j] == nums[j-1]){ continue; }
-            temp.add(nums[j]);
-            backTrack(j + 1, nums);
-            temp.remove(temp.size() - 1);
-        }
-    }
 }
