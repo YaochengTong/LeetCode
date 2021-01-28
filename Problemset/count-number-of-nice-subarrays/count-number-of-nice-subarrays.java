@@ -1,9 +1,9 @@
 
 // @Title: 统计「优美子数组」 (Count Number of Nice Subarrays)
 // @Author: tongyaocheng@gmail.com
-// @Date: 2021-01-24 20:02:44
+// @Date: 2021-01-25 22:04:12
 // @Runtime: 3 ms
-// @Memory: 47.5 MB
+// @Memory: 47 MB
 
 class Solution {
     public int numberOfSubarrays(int[] nums, int k) {
