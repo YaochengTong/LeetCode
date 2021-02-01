@@ -4,16 +4,16 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/用户-YaochengTong-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/已解决-63/1956-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/已解决-65/1956-blue.svg?" alt="">
     <img src="https://img.shields.io/badge/简单-27-green.svg?" alt="">
-    <img src="https://img.shields.io/badge/中等-35-orange.svg?" alt="">
+    <img src="https://img.shields.io/badge/中等-37-orange.svg?" alt="">
     <img src="https://img.shields.io/badge/困难-1-red.svg?" alt="">
 </p>
 <h1 align="center">LeetCode 的解答</h1>
 
 <p align="center">
     <br>
-    <b>最近一次更新: 2021-01-30 23:06:06</b>
+    <b>最近一次更新: 2021-02-01 00:49:36</b>
     <br>
 </p>
 
@@ -51,6 +51,7 @@
 |203|[移除链表元素](Problemset/remove-linked-list-elements/README_CN.md)|[Java](Problemset/remove-linked-list-elements/remove-linked-list-elements.java)|46.9%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |160|[相交链表](Problemset/intersection-of-two-linked-lists/README_CN.md)|[Java](Problemset/intersection-of-two-linked-lists/intersection-of-two-linked-lists.java)|57.5%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |155|[最小栈](Problemset/min-stack/README_CN.md)|[Java](Problemset/min-stack/min-stack.java)|56.1%|简单|[栈](https://leetcode-cn.com/tag/stack)<br>[设计](https://leetcode-cn.com/tag/design)|
+|153|[寻找旋转排序数组中的最小值](Problemset/find-minimum-in-rotated-sorted-array/README_CN.md)|[Java](Problemset/find-minimum-in-rotated-sorted-array/find-minimum-in-rotated-sorted-array.java)|52.2%|中等|[数组](https://leetcode-cn.com/tag/array)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
 |145|[二叉树的后序遍历](Problemset/binary-tree-postorder-traversal/README_CN.md)|[Java](Problemset/binary-tree-postorder-traversal/binary-tree-postorder-traversal.java)|74.0%|中等|[栈](https://leetcode-cn.com/tag/stack)<br>[树](https://leetcode-cn.com/tag/tree)|
 |144|[二叉树的前序遍历](Problemset/binary-tree-preorder-traversal/README_CN.md)|[Java](Problemset/binary-tree-preorder-traversal/binary-tree-preorder-traversal.java)|69.0%|中等|[栈](https://leetcode-cn.com/tag/stack)<br>[树](https://leetcode-cn.com/tag/tree)|
 |142|[环形链表 II](Problemset/linked-list-cycle-ii/README_CN.md)|[Java](Problemset/linked-list-cycle-ii/linked-list-cycle-ii.java)|54.3%|中等|[链表](https://leetcode-cn.com/tag/linked-list)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
@@ -73,10 +74,11 @@
 |78|[子集](Problemset/subsets/README_CN.md)|[Java](Problemset/subsets/subsets.java)|79.5%|中等|[位运算](https://leetcode-cn.com/tag/bit-manipulation)<br>[数组](https://leetcode-cn.com/tag/array)<br>[回溯算法](https://leetcode-cn.com/tag/backtracking)|
 |75|[颜色分类](Problemset/sort-colors/README_CN.md)|[Java](Problemset/sort-colors/sort-colors.java)|57.3%|中等|[排序](https://leetcode-cn.com/tag/sort)<br>[数组](https://leetcode-cn.com/tag/array)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
 |56|[合并区间](Problemset/merge-intervals/README_CN.md)|[Java](Problemset/merge-intervals/merge-intervals.java)<br>[Java](Problemset/merge-intervals/merge-intervals.java)|44.1%|中等|[排序](https://leetcode-cn.com/tag/sort)<br>[数组](https://leetcode-cn.com/tag/array)|
-|54|[螺旋矩阵](Problemset/spiral-matrix/README_CN.md)|[Java](Problemset/spiral-matrix/spiral-matrix.java)|42.4%|中等|[数组](https://leetcode-cn.com/tag/array)|
+|54|[螺旋矩阵](Problemset/spiral-matrix/README_CN.md)|[Java](Problemset/spiral-matrix/spiral-matrix.java)|42.5%|中等|[数组](https://leetcode-cn.com/tag/array)|
 |48|[旋转图像](Problemset/rotate-image/README_CN.md)|[Java](Problemset/rotate-image/rotate-image.java)|72.2%|中等|[数组](https://leetcode-cn.com/tag/array)|
 |35|[搜索插入位置](Problemset/search-insert-position/README_CN.md)|[Java](Problemset/search-insert-position/search-insert-position.java)|47.0%|简单|[数组](https://leetcode-cn.com/tag/array)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
 |34|[在排序数组中查找元素的第一个和最后一个位置](Problemset/find-first-and-last-position-of-element-in-sorted-array/README_CN.md)|[Java](Problemset/find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.java)|42.2%|中等|[数组](https://leetcode-cn.com/tag/array)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
+|33|[搜索旋转排序数组](Problemset/search-in-rotated-sorted-array/README_CN.md)|[Java](Problemset/search-in-rotated-sorted-array/search-in-rotated-sorted-array.java)|40.3%|中等|[数组](https://leetcode-cn.com/tag/array)<br>[二分查找](https://leetcode-cn.com/tag/binary-search)|
 |28|[实现 strStr()](Problemset/implement-strstr/README_CN.md)|[Java](Problemset/implement-strstr/implement-strstr.java)<br>[Java](Problemset/implement-strstr/implement-strstr.java)|39.7%|简单|[双指针](https://leetcode-cn.com/tag/two-pointers)<br>[字符串](https://leetcode-cn.com/tag/string)|
 |21|[合并两个有序链表](Problemset/merge-two-sorted-lists/README_CN.md)|[Java](Problemset/merge-two-sorted-lists/merge-two-sorted-lists.java)|65.2%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |19|[删除链表的倒数第N个节点](Problemset/remove-nth-node-from-end-of-list/README_CN.md)|[Java](Problemset/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.java)|40.8%|中等|[链表](https://leetcode-cn.com/tag/linked-list)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|

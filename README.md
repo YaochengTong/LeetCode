@@ -4,16 +4,16 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/User-YaochengTong-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/Solved-63/1956-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/Solved-65/1956-blue.svg?" alt="">
     <img src="https://img.shields.io/badge/Easy-27-green.svg?" alt="">
-    <img src="https://img.shields.io/badge/Medium-35-orange.svg?" alt="">
+    <img src="https://img.shields.io/badge/Medium-37-orange.svg?" alt="">
     <img src="https://img.shields.io/badge/Hard-1-red.svg?" alt="">
 </p>
 <h1 align="center">My LeetCode Solutions</h1>
 
 <p align="center">
     <br>
-    <b>Last updated: 2021-01-30 23:06:06</b>
+    <b>Last updated: 2021-02-01 00:49:36</b>
     <br>
 </p>
 
@@ -51,6 +51,7 @@
 |203|[Remove Linked List Elements](Problemset/remove-linked-list-elements/README.md)|[Java](Problemset/remove-linked-list-elements/remove-linked-list-elements.java)|46.9%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |160|[Intersection of Two Linked Lists](Problemset/intersection-of-two-linked-lists/README.md)|[Java](Problemset/intersection-of-two-linked-lists/intersection-of-two-linked-lists.java)|57.5%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |155|[Min Stack](Problemset/min-stack/README.md)|[Java](Problemset/min-stack/min-stack.java)|56.1%|easy|[Stack](https://leetcode-cn.com/tag/stack)<br>[Design](https://leetcode-cn.com/tag/design)|
+|153|[Find Minimum in Rotated Sorted Array](Problemset/find-minimum-in-rotated-sorted-array/README.md)|[Java](Problemset/find-minimum-in-rotated-sorted-array/find-minimum-in-rotated-sorted-array.java)|52.2%|medium|[Array](https://leetcode-cn.com/tag/array)<br>[Binary Search](https://leetcode-cn.com/tag/binary-search)|
 |145|[Binary Tree Postorder Traversal](Problemset/binary-tree-postorder-traversal/README.md)|[Java](Problemset/binary-tree-postorder-traversal/binary-tree-postorder-traversal.java)|74.0%|medium|[Stack](https://leetcode-cn.com/tag/stack)<br>[Tree](https://leetcode-cn.com/tag/tree)|
 |144|[Binary Tree Preorder Traversal](Problemset/binary-tree-preorder-traversal/README.md)|[Java](Problemset/binary-tree-preorder-traversal/binary-tree-preorder-traversal.java)|69.0%|medium|[Stack](https://leetcode-cn.com/tag/stack)<br>[Tree](https://leetcode-cn.com/tag/tree)|
 |142|[Linked List Cycle II](Problemset/linked-list-cycle-ii/README.md)|[Java](Problemset/linked-list-cycle-ii/linked-list-cycle-ii.java)|54.3%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
@@ -73,10 +74,11 @@
 |78|[Subsets](Problemset/subsets/README.md)|[Java](Problemset/subsets/subsets.java)|79.5%|medium|[Bit Manipulation](https://leetcode-cn.com/tag/bit-manipulation)<br>[Array](https://leetcode-cn.com/tag/array)<br>[Backtracking](https://leetcode-cn.com/tag/backtracking)|
 |75|[Sort Colors](Problemset/sort-colors/README.md)|[Java](Problemset/sort-colors/sort-colors.java)|57.3%|medium|[Sort](https://leetcode-cn.com/tag/sort)<br>[Array](https://leetcode-cn.com/tag/array)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
 |56|[Merge Intervals](Problemset/merge-intervals/README.md)|[Java](Problemset/merge-intervals/merge-intervals.java)<br>[Java](Problemset/merge-intervals/merge-intervals.java)|44.1%|medium|[Sort](https://leetcode-cn.com/tag/sort)<br>[Array](https://leetcode-cn.com/tag/array)|
-|54|[Spiral Matrix](Problemset/spiral-matrix/README.md)|[Java](Problemset/spiral-matrix/spiral-matrix.java)|42.4%|medium|[Array](https://leetcode-cn.com/tag/array)|
+|54|[Spiral Matrix](Problemset/spiral-matrix/README.md)|[Java](Problemset/spiral-matrix/spiral-matrix.java)|42.5%|medium|[Array](https://leetcode-cn.com/tag/array)|
 |48|[Rotate Image](Problemset/rotate-image/README.md)|[Java](Problemset/rotate-image/rotate-image.java)|72.2%|medium|[Array](https://leetcode-cn.com/tag/array)|
 |35|[Search Insert Position](Problemset/search-insert-position/README.md)|[Java](Problemset/search-insert-position/search-insert-position.java)|47.0%|easy|[Array](https://leetcode-cn.com/tag/array)<br>[Binary Search](https://leetcode-cn.com/tag/binary-search)|
 |34|[Find First and Last Position of Element in Sorted Array](Problemset/find-first-and-last-position-of-element-in-sorted-array/README.md)|[Java](Problemset/find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.java)|42.2%|medium|[Array](https://leetcode-cn.com/tag/array)<br>[Binary Search](https://leetcode-cn.com/tag/binary-search)|
+|33|[Search in Rotated Sorted Array](Problemset/search-in-rotated-sorted-array/README.md)|[Java](Problemset/search-in-rotated-sorted-array/search-in-rotated-sorted-array.java)|40.3%|medium|[Array](https://leetcode-cn.com/tag/array)<br>[Binary Search](https://leetcode-cn.com/tag/binary-search)|
 |28|[Implement strStr()](Problemset/implement-strstr/README.md)|[Java](Problemset/implement-strstr/implement-strstr.java)<br>[Java](Problemset/implement-strstr/implement-strstr.java)|39.7%|easy|[Two Pointers](https://leetcode-cn.com/tag/two-pointers)<br>[String](https://leetcode-cn.com/tag/string)|
 |21|[Merge Two Sorted Lists](Problemset/merge-two-sorted-lists/README.md)|[Java](Problemset/merge-two-sorted-lists/merge-two-sorted-lists.java)|65.2%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |19|[Remove Nth Node From End of List](Problemset/remove-nth-node-from-end-of-list/README.md)|[Java](Problemset/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.java)|40.8%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
