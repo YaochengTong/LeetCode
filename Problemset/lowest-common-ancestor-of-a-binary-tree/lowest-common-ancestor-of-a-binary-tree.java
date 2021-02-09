@@ -1,9 +1,9 @@
 
 // @Title: 二叉树的最近公共祖先 (Lowest Common Ancestor of a Binary Tree)
 // @Author: tongyaocheng@gmail.com
-// @Date: 2020-12-24 17:02:19
+// @Date: 2021-02-01 18:12:28
 // @Runtime: 7 ms
-// @Memory: 40.4 MB
+// @Memory: 40.6 MB
 
 /**
  * Definition for a binary tree node.
@@ -15,11 +15,8 @@
  * }
  */
 class Solution {
-
-    // DFS
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if (root == null) { return null; }
-        if (root.val == p.val || root.val == q.val) { return root; }
+        if (root == null || root == p || root == q) { return root; }
 
         TreeNode left = lowestCommonAncestor(root.left, p, q);
         TreeNode right = lowestCommonAncestor(root.right, p, q);
@@ -27,10 +24,7 @@ class Solution {
         if (left != null && right != null) { return root; }
         if (left == null) { return right; }
         if (right == null) { return left; }
-
+        
         return null;
     }
-
-
-
 }
