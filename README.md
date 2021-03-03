@@ -4,23 +4,23 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/User-YaochengTong-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/Solved-75/1988-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/Solved-76/1988-blue.svg?" alt="">
     <img src="https://img.shields.io/badge/Easy-28-green.svg?" alt="">
-    <img src="https://img.shields.io/badge/Medium-44-orange.svg?" alt="">
+    <img src="https://img.shields.io/badge/Medium-45-orange.svg?" alt="">
     <img src="https://img.shields.io/badge/Hard-3-red.svg?" alt="">
 </p>
 <h1 align="center">My LeetCode Solutions</h1>
 
 <p align="center">
     <br>
-    <b>Last updated: 2021-03-03 08:18:29</b>
+    <b>Last updated: 2021-03-03 09:06:03</b>
     <br>
 </p>
 
 
 | # | Title | Solutions | Acceptance | Difficulty | Tags |
 |:--:|:-----|:---------:|:----:|:----:|:----:|
-|面试题 01.08|[Zero Matrix LCCI](Problemset/zero-matrix-lcci/README.md)|[Java](Problemset/zero-matrix-lcci/zero-matrix-lcci.java)|62.1%|medium|[Array](https://leetcode-cn.com/tag/array)|
+|面试题 01.08|[Zero Matrix LCCI](Problemset/zero-matrix-lcci/README.md)|[Java](Problemset/zero-matrix-lcci/zero-matrix-lcci.java)|62.0%|medium|[Array](https://leetcode-cn.com/tag/array)|
 |面试题 01.07|[Rotate Matrix LCCI](Problemset/rotate-matrix-lcci/README.md)|[Java](Problemset/rotate-matrix-lcci/rotate-matrix-lcci.java)|75.9%|medium|[Array](https://leetcode-cn.com/tag/array)|
 |1424|[Diagonal Traverse II](Problemset/diagonal-traverse-ii/README.md)|[Java](Problemset/diagonal-traverse-ii/diagonal-traverse-ii.java)|39.0%|medium|[Sort](https://leetcode-cn.com/tag/sort)<br>[Array](https://leetcode-cn.com/tag/array)|
 |1248|[Count Number of Nice Subarrays](Problemset/count-number-of-nice-subarrays/README.md)|[Java](Problemset/count-number-of-nice-subarrays/count-number-of-nice-subarrays.java)<br>[Java](Problemset/count-number-of-nice-subarrays/count-number-of-nice-subarrays.java)|54.8%|medium|[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
@@ -81,6 +81,7 @@
 |56|[Merge Intervals](Problemset/merge-intervals/README.md)|[Java](Problemset/merge-intervals/merge-intervals.java)<br>[Java](Problemset/merge-intervals/merge-intervals.java)|44.5%|medium|[Sort](https://leetcode-cn.com/tag/sort)<br>[Array](https://leetcode-cn.com/tag/array)|
 |54|[Spiral Matrix](Problemset/spiral-matrix/README.md)|[Java](Problemset/spiral-matrix/spiral-matrix.java)|43.0%|medium|[Array](https://leetcode-cn.com/tag/array)|
 |48|[Rotate Image](Problemset/rotate-image/README.md)|[Java](Problemset/rotate-image/rotate-image.java)|72.4%|medium|[Array](https://leetcode-cn.com/tag/array)|
+|47|[Permutations II](Problemset/permutations-ii/README.md)|[Java](Problemset/permutations-ii/permutations-ii.java)|62.8%|medium|[Backtracking](https://leetcode-cn.com/tag/backtracking)|
 |46|[Permutations](Problemset/permutations/README.md)|[Java](Problemset/permutations/permutations.java)|77.7%|medium|[Backtracking](https://leetcode-cn.com/tag/backtracking)|
 |40|[Combination Sum II](Problemset/combination-sum-ii/README.md)|[Java](Problemset/combination-sum-ii/combination-sum-ii.java)<br>[Java](Problemset/combination-sum-ii/combination-sum-ii.java)|64.0%|medium|[Array](https://leetcode-cn.com/tag/array)<br>[Backtracking](https://leetcode-cn.com/tag/backtracking)|
 |39|[Combination Sum](Problemset/combination-sum/README.md)|[Java](Problemset/combination-sum/combination-sum.java)<br>[Java](Problemset/combination-sum/combination-sum.java)|72.1%|medium|[Array](https://leetcode-cn.com/tag/array)<br>[Backtracking](https://leetcode-cn.com/tag/backtracking)|
