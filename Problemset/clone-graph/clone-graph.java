@@ -1,20 +1,37 @@
 
 // @Title: 克隆图 (Clone Graph)
 // @Author: tongyaocheng@gmail.com
-// @Date: 2021-02-11 00:43:03
+// @Date: 2021-03-05 15:27:29
 // @Runtime: 32 ms
-// @Memory: 38.6 MB
+// @Memory: 38.7 MB
+
+/*
+// Definition for a Node.
+class Node {
+    public int val;
+    public List<Node> neighbors;
+    public Node() {
+        val = 0;
+        neighbors = new ArrayList<Node>();
+    }
+    public Node(int _val) {
+        val = _val;
+        neighbors = new ArrayList<Node>();
+    }
+    public Node(int _val, ArrayList<Node> _neighbors) {
+        val = _val;
+        neighbors = _neighbors;
+    }
+}
+*/
 
 class Solution {
 
     private final HashMap<Node, Node> visited = new HashMap<>();
 
     public Node cloneGraph(Node node) {
-        if (node == null) { return null; }
-        
-        if (visited.containsKey(node)) {
-            return visited.get(node);
-        }
+        if (node == null) { return null; } 
+        if (visited.containsKey(node)) { return visited.get(node); }
 
         Node clone = new Node(node.val, new ArrayList<>());
         visited.put(node, clone);
@@ -22,6 +39,7 @@ class Solution {
         for (Node n : node.neighbors) {
             clone.neighbors.add(cloneGraph(n));
         }
+
         return clone;
     }
 
