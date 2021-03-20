@@ -1,55 +1,53 @@
 
 // @Title: LRU 缓存机制 (LRU Cache)
 // @Author: tongyaocheng@gmail.com
-// @Date: 2021-03-14 19:20:56
-// @Runtime: 20 ms
-// @Memory: 46.1 MB
+// @Date: 2021-03-20 08:00:08
+// @Runtime: 22 ms
+// @Memory: 46.3 MB
 
 class LRUCache {
 
-    private final int capacity;
     private final HashMap<Integer, Node> map;
-    private final MyDoubleLinkedList cache;
+    private final DLinkedList cache;
+    private final int capacity;
 
     public LRUCache(int capacity) {
-        this.capacity = capacity;
         map = new HashMap<>(capacity);
-        cache = new MyDoubleLinkedList();
+        cache = new DLinkedList();
+        this.capacity = capacity;
     }
 
     public int get(int key) {
-        if (!map.containsKey(key)) {
-            return -1;
-        } else {
-            int value = map.get(key).value;
-            put(key, value);
-            return value;
-        }
+        if (map.containsKey(key)) {
+            int val = map.get(key).val;
+            put(key, val);
+            return val;
+        } else { return -1; }
     }
 
     public void put(int key, int value) {
-        Node temp = new Node(key, value);
         if (map.containsKey(key)) {
             cache.delete(map.get(key));
         } else {
-
-            if (map.size() >= capacity) {
-                Node deleted = cache.delete(cache.tail);
-                map.remove(deleted.key);
+            if (map.size() == capacity) {
+                int tailKey = cache.tail.key;
+                cache.delete(cache.tail);
+                map.remove(tailKey);
             }
         }
-        cache.addHead(temp);
+        Node temp = new Node(key, value);
         map.put(key, temp);
+        cache.addHead(temp);
     }
 
 }
 
-class MyDoubleLinkedList {
+class DLinkedList {
 
-    public Node head;
-    public Node tail;
+    Node head;
+    Node tail;
 
-    public MyDoubleLinkedList() { }
+    public DLinkedList() {}
 
     public void addHead(Node n) {
         if (head == null) {
@@ -61,7 +59,7 @@ class MyDoubleLinkedList {
         }
     }
 
-    public Node delete(Node n) {
+    public void delete(Node n) {
         if (n == head && n == tail) {
             head = tail = null;
         } else if (n == head) {
@@ -74,26 +72,30 @@ class MyDoubleLinkedList {
             n.prev.next = n.next;
             n.next.prev = n.prev;
         }
-        return n;
+    }
+
+    public void printList() {
+        System.out.println("list: ");
+        Node curr = head;
+        while (curr != null) {
+            System.out.print(curr.key + "|" + curr.val + "->");
+            curr = curr.next;
+        }
+        System.out.println();
     }
 
 }
 
 class Node {
 
-    public int key, value;
-    public Node next;
-    public Node prev;
+    public int key, val;
+    Node prev, next;
 
-    public Node() {
-        this.key = 0;
-        this.value = 0;
-    }
-
-    public Node(int key, int value) {
+    public Node(int key, int val) {
         this.key = key;
-        this.value = value;
+        this.val = val;
     }
 
 }
+
 
