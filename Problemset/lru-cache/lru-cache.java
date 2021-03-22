@@ -1,87 +1,88 @@
 
 // @Title: LRU 缓存机制 (LRU Cache)
 // @Author: tongyaocheng@gmail.com
-// @Date: 2021-03-20 08:00:08
+// @Date: 2021-03-21 11:11:26
 // @Runtime: 22 ms
-// @Memory: 46.3 MB
+// @Memory: 46.5 MB
 
 class LRUCache {
 
     private final HashMap<Integer, Node> map;
-    private final DLinkedList cache;
+    private final MyLinkedList cache;
     private final int capacity;
 
     public LRUCache(int capacity) {
         map = new HashMap<>(capacity);
-        cache = new DLinkedList();
+        cache = new MyLinkedList();
         this.capacity = capacity;
     }
 
     public int get(int key) {
         if (map.containsKey(key)) {
-            int val = map.get(key).val;
-            put(key, val);
-            return val;
+            put(key, map.get(key).next.val);
+            return cache.tail.val;
         } else { return -1; }
     }
 
     public void put(int key, int value) {
+        Node temp = new Node(key, value);
         if (map.containsKey(key)) {
-            cache.delete(map.get(key));
+            Node prev = map.get(key);
+            if (prev.next != cache.tail) {
+                map.put(prev.next.next.key, prev);
+            } else {
+                cache.deleteUsingPrev(prev);
+                cache.addTail(temp);
+                return;
+            }
+            map.put(key, cache.tail);
+            cache.deleteUsingPrev(prev);
         } else {
             if (map.size() == capacity) {
-                int tailKey = cache.tail.key;
-                cache.delete(cache.tail);
-                map.remove(tailKey);
+                map.remove(cache.head.key);
+                if (cache.head.next == null) {
+                    map.put(key, cache.dummy);
+                    cache.deleteUsingPrev(cache.dummy);
+                    cache.addTail(temp);
+                    return;
+                }
+                map.put(cache.head.next.key, cache.dummy);
+                cache.deleteUsingPrev(cache.dummy);
             }
+            map.put(key, cache.tail);
         }
-        Node temp = new Node(key, value);
-        map.put(key, temp);
-        cache.addHead(temp);
+        cache.addTail(temp);
     }
 
 }
 
-class DLinkedList {
+class MyLinkedList {
 
-    Node head;
-    Node tail;
+    Node head, tail, dummy;
+    public int size;
 
-    public DLinkedList() {}
-
-    public void addHead(Node n) {
-        if (head == null) {
-            head = tail = n;
-        } else {
-            n.next = head;
-            head.prev = n;
-            head = n;
-        }
+    public MyLinkedList() {
+        this.dummy = new Node(0, 0);
+        tail = dummy;
     }
 
-    public void delete(Node n) {
-        if (n == head && n == tail) {
-            head = tail = null;
-        } else if (n == head) {
-            head = head.next;
-            head.prev = null;
-        } else if (n == tail) {
-            tail = tail.prev;
-            tail.next = null;
-        } else {
-            n.prev.next = n.next;
-            n.next.prev = n.prev;
-        }
+
+    public void addTail(Node n) {
+        tail.next = n;
+        tail = n;
+        size++;
+        if (size == 1) { head = n; }
     }
 
-    public void printList() {
-        System.out.println("list: ");
-        Node curr = head;
-        while (curr != null) {
-            System.out.print(curr.key + "|" + curr.val + "->");
-            curr = curr.next;
+    public void deleteUsingPrev(Node n_prev) {
+        if (n_prev.next == tail) {
+            n_prev.next = null;
+            tail = n_prev;
+        } else {
+            n_prev.next = n_prev.next.next;
         }
-        System.out.println();
+        if (n_prev == dummy) { head = dummy.next; }
+        size--;
     }
 
 }
@@ -97,5 +98,3 @@ class Node {
     }
 
 }
-
-
